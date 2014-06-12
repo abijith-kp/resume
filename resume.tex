@@ -1,0 +1,191 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Plasmati Graduate CV
+% LaTeX Template
+% Version 1.0 (24/3/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Alessandro Plasmati (alessandro.plasmati@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template needs to be compiled with XeLaTeX.
+% The main document font is called Fontin and can be downloaded for free
+% from here: http://www.exljbris.com/fontin.html
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[a4paper,10pt]{article} % Default font size and paper size
+
+\usepackage{fontspec} % For loading fonts
+\defaultfontfeatures{Mapping=tex-text}
+\setmainfont[SmallCapsFont = Fontin SmallCaps]{Fontin} % Main document font
+
+\usepackage{xunicode,xltxtra,url,parskip} % Formatting packages
+
+\usepackage[usenames,dvipsnames]{xcolor} % Required for specifying custom colors
+
+\usepackage[big]{layaureo} % Margin formatting of the A4 page, an alternative to layaureo can be \usepackage{fullpage}
+% To reduce the height of the top margin uncomment: \addtolength{\voffset}{-1.3cm}
+
+\usepackage{hyperref} % Required for adding links	and customizing them
+\definecolor{linkcolour}{rgb}{0,0.2,0.6} % Link color
+\hypersetup{colorlinks,breaklinks,urlcolor=linkcolour,linkcolor=linkcolour} % Set link colors throughout the document
+
+\usepackage{titlesec} % Used to customize the \section command
+\titleformat{\section}{\Large\scshape\raggedright}{}{0em}{}[\titlerule] % Text formatting of sections
+\titlespacing{\section}{0pt}{3pt}{3pt} % Spacing around sections
+
+\begin{document}
+
+\pagestyle{empty} % Removes page numbering
+
+\font\fb=''[cmr10]'' % Change the font of the \LaTeX command under the skills section
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION
+%----------------------------------------------------------------------------------------
+
+\par{\centering{\Huge Abijith \textsc{K P}}\bigskip\par} % Your name
+
+\begin{tabular}{rp{11cm}}	
+\textbf{Career Objective:} &\textsc{To work in a stimulating environment where i can enhance and apply my knowledge and skills to serve the firm and the society to the best of my efforts.} \\
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\begin{tabular}{rl}	
+\textsc{May} 2014 & Bachelor of Technology in \textsc{Computer Science and Engineering}\\
+& \textbf{National Institute of Technology Calicut}, Kozhikode, Kerala\\
+&\normalsize \textsc{Gpa}: 7.00/10\\
+&\\
+
+%------------------------------------------------
+
+\textsc{April} 2010& AISSCE \\&\normalsize\textbf{Bhavan's Vidya Mandir Girinagar}, Cochin\\
+&\normalsize \textsc{Percentage}: 89 \\
+&\\
+
+%------------------------------------------------
+
+\textsc{April} 2008& AISSE \\&\normalsize\textbf{Bhavan's Vidya Mandir Girinagar}, Cochin\\
+&\normalsize \textsc{Percentage}: 88 \\
+&\\
+
+\end{tabular}
+
+\section{Computer Skills}
+
+\begin{tabular}{r|p{11cm}}
+\emph{Programing} & Intermediate: C, Bash Scripting, C++ \\
+\emph{Languages} & Basic: Python, Android, MySQL, PHP\\ 
+& Used Before: Lisp, NASM\\
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\emph{Tools} & Vim, Git, GDB \\
+& Basic: {\fb \LaTeX}\setmainfont[SmallCapsFont=Fontin SmallCaps]{Fontin-Regular}, Lex, YACC, Ecplipse IDE\\ 
+\multicolumn{2}{c}{} \\
+
+%------------------------------------------------
+
+\emph{Operating} & Linux: Arch Linux, Fedora 16, Ubuntu\\
+\emph{Systems} & Others: MS Windows, Android
+\end{tabular}
+
+%----------------------------------------------------------------------------------------
+%       PROJECTS DONE
+%----------------------------------------------------------------------------------------
+
+\section{Projects Done}
+
+\begin{tabular}{p{11cm}p{11cm}}	
+\emph{Intrusion Detection System(B-Tech Main Project)} & 2013 - 2014\\
+\emph{Designed and implemented an IDS based on sequence of system calls}&\\
+\normalsize{Guid: Dr.Vinod Pathari}&\\
+&\\
+
+%------------------------------------------------
+\emph{Sentiment Analysis using linguistic approach(Course Project)} & 2012 - 2013\\
+\emph{Project based on Natural Language Pocessing}&\\
+&\\
+
+\emph{Interpretter on top GCC compiler using BASH} & 2013 \\
+\emph{Hobby project to learn bash scripting} & \\
+&\\
+
+\emph{Location Tracker for salespersons} & Summer 2012\\
+\emph{Android application using GPS}&\\
+&\\
+
+\emph{Peer-to-Peer file sharing system} & Summer 2013\\
+\emph{A file sharing system for project management}&\\
+&\\
+        
+\end{tabular}
+
+
+%----------------------------------------------------------------------------------------
+%	SCHOLARSHIPS AND ADDITIONAL INFO
+%----------------------------------------------------------------------------------------
+
+\section{Non-Acadamic Activities}
+
+\textbf{Participation}\\ \\
+\begin{tabular}{p{11cm}p{11cm}}
+InCTF - Amritapuri, Kollam & 2013, 2014\\
+Completed as one of the finalists. 5\textsuperscript{th} position in 2013 &\\ \\
+Robotics Workshop conducted by Technophillia & 2012 \\
+Introduction to programming in robotics in Embedded C &\\ \\
+Participation in foss.in, Banglore &\\
+Largest Open-Source/Technology meet in India &\\ \\
+\end{tabular}
+
+\textbf{Positions held}\\ \\
+\begin{tabular}{p{11cm}p{11cm}}
+Student Co-ordinator, FOSSMeet & 2014 \\
+One of the largest student run Open Source meet in India & \\ \\
+Secretary, Club Mathematica & 2012 - 2013 \\
+Played a cruicial role in organizing events for the students & \\ \\
+Event Manager & 2012 \\
+Conducted the 1\textsuperscript{st} Rubik's cube open at college, Tathva Cube Open& \\ \\
+Marketing Manager & 2012, 2011 \\
+Played major role in raising funds for organizing one of the largest student run technical fests in India & \\ \\
+\end{tabular}
+%----------------------------------------------------------------------------------------
+%	INTERESTS AND ACTIVITIES
+%----------------------------------------------------------------------------------------
+
+\section{Interests and Activities}
+
+Open-Source, Programming\\
+Security, Operating Systems, Networks\\
+Rubik's Cube(Fastest time: 22sec), Travelling, Movies
+
+%----------------------------------------------------------------------------------------
+
+\section{Other Details}
+
+\begin{tabular}{rl}
+\textsc{Blog:} & www.kpabijith.wordpress.com \\
+\textsc{Github:} & www.github.com/abijith-kp \\
+\textsc{Blog:} & www.in.linkedin.com/pub/abijith-kp/30/blb/122 \\ \\
+\textsc{Email:} & abijithkp@yahoo.co.in \\
+\textsc{Phone:} & +91 9400 424 568\\
+\textsc{Address:} & 28/2131 Akhil Nivas, Kadavanthara, Cochin-20, Kerala, India \\
+\end{tabular}
+
+\end{document}
